@@ -44,7 +44,7 @@ ul {
     list-style: none;
     gap: 30px;
     align-items: center;
-    
+
 }
 
 ul a {
@@ -54,7 +54,6 @@ ul a {
     font-weight: 600;
     color: var(--color6);
     transition: all 0.2s ease-in-out;
-    
 }
 
 ul a:hover {
@@ -64,6 +63,19 @@ ul a:hover {
 
 .destaque-menu {
     background-color: var(--color4);
-    padding: 1%;
-    line-height: 1;
+    padding: 2%;
+    white-space: nowrap;
+    transition: all 0.2s ease-in-out;
+    color: var(--color6s);
+}
+
+.destaque-menu:hover {
+    transform: scale(0.95);
+    color: var(--color3);
+}
+
+.presentation {
+    background-image: url('../image/tec-bw.jpg');
+    background-size: cover;
+    
 }
