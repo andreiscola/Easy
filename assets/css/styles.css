@@ -172,3 +172,30 @@ ul a:hover {
     font-size: 1rem;
     font-family: var(--font2);
 }
+
+.about {
+    padding: 1% 10% 5% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: justify;
+    font-family: var(--font2);
+    font-size: 1.2rem;
+}
+
+.abt-subtlt {
+    font-family: var(--font6);
+    font-size: 2rem;
+}
+
+.abt-subtlt span {
+    color: var(--color4);
+}
