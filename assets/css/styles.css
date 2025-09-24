@@ -15,6 +15,8 @@
     --color5: #1c1c1c;
     --color6: #f1f1f1;
     --color7: #0d1117;
+    --color8: #fffce6;
+    --color9: #eeeeee;
 }
 
 * {
@@ -24,7 +26,6 @@
 }
 
 body {
-    /* background: linear-gradient(to bottom, var(--color1), var(--color5)); */
     background-color: var(--color1);
     color: var(--color6);
     min-height: 100vh;
@@ -77,15 +78,6 @@ ul a:hover {
 }
 
 .presentation {
-    /* background-image: url('../image/tec-bw.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
     background-color: var(--color7);
 }
 
@@ -175,6 +167,8 @@ ul a:hover {
     gap: 50px;
     justify-content: center;
     align-items: center;
+    background-color: var(--color8);
+    color: var(--color5);
 }
 
 .abt-txt {
@@ -188,7 +182,7 @@ ul a:hover {
 }
 
 .abt-subtlt {
-    font-family: var(--font6);
+    font-family: var(--font2);
     font-size: 2rem;
     padding: 1%;
 }
@@ -197,5 +191,10 @@ ul a:hover {
     color: var(--color4);
 }
 
+footer {
+    background-color: var(--color5);
+    color: var(--color8);
+    padding: 2%;
+}
 
 
