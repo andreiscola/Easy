@@ -126,12 +126,7 @@ ul a:hover {
     font-family: var(--font6);
     color: var(--color6);
     text-shadow: 1px 1px 1px #9ca3af;
-    opacity: .6;
     text-align: start;
-}
-
-.img-mn {
-    opacity: .6;
 }
 
 .img-mn img {
@@ -185,6 +180,7 @@ ul a:hover {
 .abt-txt {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
     text-align: justify;
     font-family: var(--font2);
@@ -194,8 +190,12 @@ ul a:hover {
 .abt-subtlt {
     font-family: var(--font6);
     font-size: 2rem;
+    padding: 1%;
 }
 
 .abt-subtlt span {
     color: var(--color4);
 }
+
+
+
